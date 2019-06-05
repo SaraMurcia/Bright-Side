@@ -1,2 +1,2 @@
-# Bright-Side
+# Bright Side
 Proyecto final
