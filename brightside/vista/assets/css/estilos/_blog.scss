@@ -1,0 +1,126 @@
+#centralBlog {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    background-color: white;
+    border-left: 1px solid $gris;
+    border-right: 1px solid $gris;
+    padding: 2%;
+    font-family: $fuente;
+}
+
+.mayus {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin-top: 3%;
+    margin-left: 3%;
+    color: $rosaFuerte;
+    width: 60%;
+}
+
+.txtResumen {
+    text-align: justify;
+    letter-spacing: 3px;
+    margin: 5%;
+    color: $gris;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.noticia1 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin-top: -60%;
+    left: 180%;
+}
+
+.noticia1:hover {
+    opacity: 0.5;
+}
+
+.posNoti {
+    float: left;
+    margin-top: 2%;
+}
+
+.separador {
+    position: relative;
+    top: 45%;
+    border: 1px solid $gris;
+}
+
+.autor1 {
+    position: relative;
+    color: $rosaFuerte;
+    left: 30%;
+}
+
+.noticia2 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin-top: -55%;
+    left: 180%;
+}
+
+.fechaEntrada {
+    font-weight: 800;
+}
+
+.imagenEntradilla {
+    width: 100%;
+    height: 25%;;
+}
+
+.tituloEntradilla {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: $rosaFuerte;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.entradaEntradilla {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.datosEntradilla {
+    color: $rosaFuerte;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.entradaEntradilla h4 {
+    font-size: 25px;
+    margin-left: -2%;
+    color: $gris;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 1%;
+}
+
+.entradaEntradilla p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.entradaEntradilla h3 {
+    margin-left: 2%;
+    color: $gris;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $rosaPalo;
+}
+
+.entradaEntradilla img {
+    width: 50%;
+    height: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

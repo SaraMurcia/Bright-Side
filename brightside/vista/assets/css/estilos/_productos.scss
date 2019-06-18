@@ -1,0 +1,804 @@
+.productosTitulo {
+    position: absolute;
+    left: 1%;
+    top: -100px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-family: $fuente;
+    color: $grisSuave;
+}
+
+.posicionarPag {
+    position: relative;
+    top: 2%;
+	margin-left: 30%;
+	width: 800px;
+}
+
+.crearProductoForm {
+	position: relative;
+	left: 15%;
+}
+
+.crearProductoForm h1 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 700;
+	color: $gris;
+}
+
+.crearProductoForm label {
+    width: 280px;
+    height: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.crearProductoForm .error {
+ color: $rosaFuerte;
+ width: 500px;
+ text-transform: initial;
+}
+
+.crearProductoForm input {
+    border: 1px solid #780E51;
+    border-radius: 5px;
+    background-color: #DBDBDB;
+    width: 630px !important;
+    padding: 1%;
+    margin-top: 3%;
+    color: black !important;
+}
+
+.crearProductoForm textarea {
+    border: 1px solid #780E51;
+    border-radius: 5px;
+    background-color: #DBDBDB;
+    width: 630px !important;
+    padding: 1%;
+    margin-top: 3%;
+    color: black !important;
+}
+
+.crearProductoForm button {
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    position: relative;
+    left: 45%;
+    background: rgba(255,212,239,1);
+    background: -moz-linear-gradient(top, rgba(255,212,239,1) 0%, rgba(255,212,239,1) 2%, rgba(242,148,206,1) 24%, rgba(253,137,215,1) 68%, rgba(255,212,239,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,212,239,1)), color-stop(2%, rgba(255,212,239,1)), color-stop(24%, rgba(242,148,206,1)), color-stop(68%, rgba(253,137,215,1)), color-stop(100%, rgba(255,212,239,1)));
+    background: -webkit-linear-gradient(top, rgba(255,212,239,1) 0%, rgba(255,212,239,1) 2%, rgba(242,148,206,1) 24%, rgba(253,137,215,1) 68%, rgba(255,212,239,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,212,239,1) 0%, rgba(255,212,239,1) 2%, rgba(242,148,206,1) 24%, rgba(253,137,215,1) 68%, rgba(255,212,239,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,212,239,1) 0%, rgba(255,212,239,1) 2%, rgba(242,148,206,1) 24%, rgba(253,137,215,1) 68%, rgba(255,212,239,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,212,239,1) 0%, rgba(255,212,239,1) 2%, rgba(242,148,206,1) 24%, rgba(253,137,215,1) 68%, rgba(255,212,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd4ef', endColorstr='#ffd4ef', GradientType=0 );
+    border: 1px solid $grisSuave;
+    border-radius: 5px;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.crearProductoForm button:hover {
+    background: $rosaPalo;
+    border: 1px solid $gris;
+    border-radius: 5px;
+}
+
+.productosColocar {
+	position: relative;
+	left: 5%;
+}
+
+.iconoEB {
+	width: 40px;
+	height: 40px;
+}
+
+.ajusteSize {
+    width: 400px !important;
+    border-color: $rosaPalo !important;
+    position: relative;
+	top: -5px;
+	left: 70% !important;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/* Caja productos */
+
+.imagenProducto {
+	width: 140px;
+	height: 200px;
+	position: relative;
+	left: 25%;
+	top: 45px;
+}
+
+#cajaProducto {
+	align-content: center;
+	float: left;
+	text-align: justify;
+	font-family: helvetica;
+	width: 235px;
+	height: 440px;
+	border-left: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	overflow: hidden;
+}
+
+#colorea {
+	color: #F5B3DD;
+}
+
+#cajaProducto:hover #cajaComprar {
+	top: 15px;
+	transition: all 0.5s;
+}
+
+#cajaProducto:hover #lineaCaja {
+	opacity: 1;
+	transition: all 1.5s;
+}
+
+#cajaProducto:hover .imagenProducto {
+	opacity: 0.75;
+	transition: all 0.5s;
+}
+
+#cajaProducto:hover {
+	width: 232px;
+	height: 436px;
+	border: 2px solid #F5B3DD;
+}
+
+#cajaEfecto {
+	float: left;
+	width: 235px;
+	height: 440px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+#lineaCaja {
+	position: absolute;
+	opacity: 0;
+
+}
+
+.nombreProducto {
+	position: relative;
+	margin: 5px;
+	text-align: center;
+	padding: 20px;
+	top: 10px;
+	font-size: 15px;
+	text-transform: lowercase;
+	color: #C0C0C0;
+	height: 50px;
+}
+
+#cajaComprar {
+	position: relative;
+	margin: 10px;
+	top: 135px;
+	width: 170px;
+	text-align: center;
+	margin: auto;
+	padding: 12px;
+	background-color: #F5B3DD;
+	color: white;
+	font-weight: bold;
+	font-family: century gothic;
+	text-transform: uppercase;
+}
+
+.nombreProducto:hover {
+	color: #F5B3DD;
+	transition: all 1s;
+}
+
+#valoracionProducto {
+	position: relative;
+	font-size: 12px;
+	font-family: century gothic;
+	text-transform: lowercase;
+	color: #C0C0C0;
+	top: 65px;
+	left: 35%;
+}
+
+.precioProducto {
+	position: relative;
+	padding: 5px;
+	font-family: century gothic;
+	top: 70px;
+	left: 35%;
+	font-size: 25px;
+	color: #808080;
+}
+
+#barraCentralProducto {
+	position: absolute;
+	width: 1200px;
+	left: 10%;
+}
+
+.zoomProducto {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.imageCardProducto img {
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
+	max-width: 100%
+}
+
+.imagenProducto img {
+	width: 100%;
+	height: 100%;
+}
+
+#cajaProductoIndex {
+	float: left;
+	text-align: justify;
+	font-family: helvetica;
+	width: 150px;
+	height: 200px;
+}
+
+.zoomProductoIndex {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.imageCardProductIndex img {
+	-webkit-transition: 1s ease;
+	transition: 1s ease;
+	width: 100%;
+	height: 100%;
+}
+
+.zoomProductoIndex:hover .imageCardProductoIndex img{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: 0.6s ease;
+	transition: 0.6s ease;
+	filter: grayscale(50%);
+}
+
+.imagenProductoIndex img {
+	width: 100%;
+	height: 100%;
+}
+
+
+#tituloMarca {
+	font-size: 40px;
+	font-family: impact;
+	text-transform: uppercase;
+	text-align: right;
+	position: relative;
+	top: -60px;
+	color: #F294CE;
+	width: 700px;
+}
+
+#tituloNombreProducto {
+	font-size: 15px;
+	font-family: helvetica;
+	text-align: right;
+	position: relative;
+	top: -50px;
+	width: 700px;
+	color: #808080;
+}
+
+#tipoProducto {
+	font-size: 12px;
+	font-family: helvetica;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	padding: 5px;
+	width: 700px;
+	top: -50px;
+	color: #808080;
+}
+
+#precioProducto {
+	font-size: 40px;
+	font-family: impact;
+	text-transform: uppercase;
+	text-align: right;
+	position: relative;
+	top: -40px;
+	width: 700px;
+	color: #F294CE;
+}
+
+#valoracion {
+	font-size: 15px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: left;
+	position: relative;
+	left: 10%;
+	top: -30px;
+	width: 700px;
+	color: #808080;
+}
+
+.imageSizeBig {
+	width: 350px;
+	height: 450px;
+}
+
+#txtDescripcion {
+	font-size: 16px;
+	font-family: helvetica;
+	text-align: justify;
+	position: relative;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 700px;
+	height: 230px;
+}
+
+tr, td {
+	padding: 5px;
+}
+
+	.botonComprar {
+    text-decoration: none;
+    padding: 10px;
+    font-family: helvetica;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #808080;
+    position: relative;
+    top: -320px;
+    left: 45%;
+  	}
+  	.botonComprar:hover{
+    color: #F294CE;
+    font-weight: bold;
+    background-color: #C0C0C0;
+    text-decoration: none;
+  	}
+
+.siguienteAnterior {
+	position: relative;
+	height: 50px;
+	width: 700px;
+	text-decoration: none;
+	color: black;
+}
+
+.sig {
+	left: 40%;
+}
+
+.ant {
+	right: 20%;
+}
+
+#cajaColor {
+	width: 200px;
+	height: 30px;
+	position: relative;
+	left: 42%;
+}
+
+#color {
+	position: relative;
+	top: 30%;
+	width: 40px;
+	height: 40px;
+	align-content: center;
+	text-align: center;
+	margin-left: 40%;
+}
+
+#colorNombre {
+	position: relative;
+	top: 70%;
+	font-size: 20px;
+	font-family: impact;
+	margin-left: 10%;
+	text-transform: uppercase;
+	margin-right: 10%;
+}
+
+#coloresTitulo {
+	position: relative;
+	right: 43%;
+	text-decoration: underline;
+	text-transform: uppercase;
+	left: -450px;
+}
+
+.btn {
+	background-color: #F294CE;
+}
+
+#colorcitos {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: white;
+    top: 5%;
+}
+
+.btnColorcitos {
+	position: absolute;
+	top: 5%;
+	background-color: white;
+	padding: 5px;
+    font-family: helvetica;
+    text-transform: uppercase;
+    border-radius: 20px 20px;
+    width: 100px;
+	border-width: 0px;
+	border-style: none;
+}
+
+.btnColorcitos:hover {
+	background-color: #F294CE;
+	color: white;
+}
+
+#cajaColores {
+	width: 150px;
+	height: 120px;
+	float: left;
+	display: inline-block;
+    margin-left: auto;
+    background-color: white;
+    margin-right: auto;
+    text-align: center;
+    animation: desvanece 2s;
+    border: 1px solid #C0C0C0;
+    overflow: hidden;
+}
+
+#cajaColores:hover #color {
+	opacity: 0.1;
+}
+
+#cajaColores:hover #colorNombre {
+	top: 20%;
+	transition: all 0.5s;
+}
+
+@keyframes desvanece {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+#productoCaja {
+	width: 300px;
+	height: 400px;
+	float: left;
+}
+
+.imagenCaja {
+	width: 200px;
+	height: 200px;
+}
+
+.cursorP {
+	cursor: pointer;
+}
+
+#barraCentralProducto {
+	position: absolute;
+	width: 1200px;
+	left: 15%;
+	font-family: $fuente;
+}
+
+.zoomProducto {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.imageCardProducto img {
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
+	max-width: 100%
+}
+
+.imagenProducto img {
+	width: 100%;
+	height: 100%;
+}
+
+#cajaProductoIndex {
+	float: left;
+	text-align: justify;
+	font-family: helvetica;
+	width: 150px;
+	height: 200px;
+}
+
+.zoomProductoIndex {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.imageCardProductIndex img {
+	-webkit-transition: 1s ease;
+	transition: 1s ease;
+	width: 100%;
+	height: 100%;
+}
+
+.zoomProductoIndex:hover .imageCardProductoIndex img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: 0.6s ease;
+	transition: 0.6s ease;
+	filter: grayscale(50%);
+}
+
+.imagenProductoIndex img {
+	width: 100%;
+	height: 100%;
+}
+
+
+#tituloMarca {
+	font-size: 40px;
+	font-family: impact;
+	text-transform: uppercase;
+	text-align: right;
+	position: relative;
+	top: 1px;
+	color: $rosaFuerte;
+	width: 700px;
+}
+
+#tituloNombreProducto {
+	font-size: 15px;
+	font-family: helvetica;
+	text-align: right;
+	position: relative;
+	top: 1;
+	width: 700px;
+	color: $gris;
+}
+
+#tipoProducto {
+	font-size: 12px;
+	font-family: helvetica;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	padding: 5px;
+	width: 700px;
+	top: 1px;
+	color: $gris;
+}
+
+#precioProducto {
+	font-size: 40px;
+	font-family: impact;
+	text-transform: uppercase;
+	text-align: right;
+	position: relative;
+	top: 10px;
+	width: 700px;
+	color: $rosaFuerte;
+}
+
+#valoracion {
+	font-size: 15px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: left;
+	position: relative;
+	left: 10%;
+	top: -10px;
+	width: 700px;
+	color: #808080;
+}
+
+.imageSizeBig {
+	width: 350px;
+	height: 450px;
+}
+
+#txtDescripcion {
+	font-size: 16px;
+	font-family: $fuente;
+	text-align: justify;
+	position: relative;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 700px;
+	height: 230px;
+	letter-spacing: 1px;
+}
+
+tr, td {
+	padding: 5px;
+}
+
+	.botonComprar {
+    text-decoration: none;
+    padding: 15px;
+    font-family: helvetica;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: $gris;
+    position: relative;
+    top: 90px;
+    left: 90%;
+  	}
+  	.botonComprar:hover{
+    color: $rosaFuerte;
+    font-weight: bold;
+    background-color: $grisSuave;
+    text-decoration: none;
+  	}
+
+.siguienteAnterior {
+	position: relative;
+	height: 50px;
+	width: 700px;
+	text-decoration: none;
+	color: black;
+}
+
+.sig {
+	top: 10px;
+	left: 50%;
+}
+
+.ant {
+	top: 10px;
+	left: 25%;
+}
+
+#cajaColor {
+	width: 200px;
+	height: 30px;
+	position: relative;
+	left: 60%;
+}
+
+#color {
+	position: relative;
+	top: 30%;
+	width: 40px;
+	height: 40px;
+	align-content: center;
+	text-align: center;
+	margin-left: 40%;
+}
+
+#colorNombre {
+	position: relative;
+	top: 70%;
+	font-size: 20px;
+	font-family: impact;
+	margin-left: 10%;
+	text-transform: uppercase;
+	margin-right: 10%;
+}
+
+#coloresTitulo {
+	position: relative;
+	right: 43%;
+	text-decoration: underline;
+	text-transform: uppercase;
+	left: -450px;
+}
+
+.btn {
+	background-color: #F294CE;
+}
+
+#colorcitos {
+	z-index: 800;
+	text-align: center;
+	width: 50%;
+	margin-left: 20%;
+    position: relative;
+    background-color: white;
+    top: 200px;
+}
+
+#cajaColores {
+	width: 150px;
+	height: 120px;
+	float: left;
+	display: inline-block;
+    margin-left: auto;
+    background-color: white;
+    margin-right: auto;
+    text-align: center;
+    animation: desvanece 2s;
+    border: 1px solid #C0C0C0;
+    overflow: hidden;
+}
+
+#cajaColores:hover #color {
+	opacity: 0.1;
+}
+
+#cajaColores:hover #colorNombre {
+	top: 20%;
+	transition: all 0.5s;
+}
+
+@keyframes desvanece {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+#botonesProducto {
+	position: relative;
+	left: 50%;
+}
+
+#botonAdd {
+	position: relative;
+	left: 15%;
+	top: 65px;
+}
+
+#botonesProducto a {
+	margin: 2%;
+}
+
+// Caja Colores
+
+#cajaColor {
+	width: 200px;
+	height: 30px;
+	position: relative;
+	left: 42%;
+}

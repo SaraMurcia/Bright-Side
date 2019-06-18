@@ -1,0 +1,68 @@
+.parrafoComentario {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+.datosUsuarioComentario {
+    font-weight: bold;
+    color: black;
+}
+
+.tituloComentario {
+    text-transform: uppercase;
+    color: $gris;
+    margin-left: -5%;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+#cajaComentario {
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.cajaBordeComentario {
+    border: 1px solid $gris;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+    padding: 2%;
+    background-image: url("../images/fondocomentario.png");
+    background-repeat: repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.addComent {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    color: $gris;
+    margin-left: -5%;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.formularioComentario button {
+    background: $rosaPalo;
+    padding: 0.6%;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid $gris;
+    margin-top: 1%;
+}
+
+.formularioComentario button:hover {
+    background: $gris;
+    color: white;
+}
+
+#comentandoComo {
+    margin-left: 20%;
+    font-size: 15px;
+    letter-spacing: 2px;
+}

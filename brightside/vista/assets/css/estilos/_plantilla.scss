@@ -1,0 +1,67 @@
+.nickname {
+    font-size: 550%;
+    position: relative;
+    font-family: $fuente;
+    color: $gris;
+    letter-spacing: 1px;
+}
+
+.nombreUsu {
+    position: relative;
+    font-family: $fuente;
+}
+
+.rolUsu {
+    position: relative;
+    top: -33px;
+    left: 3%;
+    font-family: $fuente;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $rosaFuerte;
+}
+
+#lateralPlantilla {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    float: left;
+    padding: 5%;
+}
+
+.dchaPlantilla {
+    left: 200px;
+    font-family: $fuente;
+}
+
+.cajaEstado {
+    border: 1px solid $rosaFuerte;
+    padding: 2%;
+    width: 65%;
+}
+
+.dchaPlantilla h4 {
+    color: $rosaFuerte;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.panelTitulo {
+    color: $rosaFuerte;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.usuarioConectado {
+    font-family: $fuente;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    color: $gris;
+    margin-left: 8%;
+}
+
+hr {
+    width: 100%;
+}

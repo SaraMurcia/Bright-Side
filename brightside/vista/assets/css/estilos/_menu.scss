@@ -1,0 +1,61 @@
+nav {
+	z-index: 500;
+}
+#menu {
+	z-index: 400;
+}
+
+#menu ul {
+	z-index: -1;
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+}
+
+#menu ul li {
+	background-color: none;
+}
+
+#menu ul a {
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+	font-family: $fuente;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#menu ul li {
+	width: 200px;
+	position: relative;
+	float: left;
+}
+
+#menu ul a:hover {
+	color: $rosaPalo;
+}
+
+#menu ul ul {
+	display: none;
+	position: absolute;
+	left: 15%;
+	background: none;
+	padding: 2px;
+	top: 30px;
+}
+
+#menu ul ul li {
+	float: none;
+	width: 150px;
+	height: 50px;
+}
+
+#menu ul ul a {
+	line-height: 120%;
+	padding: 10px 15px;
+}
+
+#menu ul li:hover > ul {
+	display: block;
+}

@@ -1,0 +1,71 @@
+#cuerpoEntrada {
+    width: 100%;
+    min-height: 200vh;
+    background-color: white;
+    z-index: 1000;
+    position: absolute;
+    animation: desvanecer 2s;
+    animation-delay: 4s;
+}
+
+#principalEntrada {
+position: absolute;
+top: 20%;
+left: 5%;
+z-index: 1000;
+}
+
+.arribaEntrada {
+    position: absolute;
+    top: 0px;
+    left: 93px;
+    animation: arriba 6s;
+}
+
+.medioEntrada {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
+
+.abajoEntrada {
+    position: absolute;
+    top: 139px;
+    left: 89px;
+    animation: abajo 6s;
+}
+
+@keyframes arriba {
+    0% {
+        top: 15px;
+    }
+
+    50% {
+        top: -25px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes abajo {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes desvanecer {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}
+
+.cerrar {
+    transform: translateY(-100%);
+    transition: all 0.1s;
+}

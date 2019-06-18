@@ -1,0 +1,66 @@
+.bigHeader {
+	top: 0px;
+	height: 10%;
+	position: fixed;
+	width: 100%;
+	color: white;
+	font-size: 15px !important;
+	z-index: 20000;
+	transition: all 0.9s ease;
+}
+
+hr {
+	height: 4px;
+	width: 60%;
+}
+
+.aArreglo {
+	text-decoration: none;
+	color: $grisSuave;
+	font-weight: bold !important;
+}
+
+.anchoBarra {
+	background-color: white;
+	height: 7%;
+}
+
+.stickyHeader {
+	font-size: 12px !important;
+}
+
+.fueraImagen {
+	position: absolute;
+	top: 20%;
+	right: 80%;
+}
+
+.logo {
+	width: 90%;
+	height: 50%;
+	transition: all 0.9s ease;
+}
+
+#logo {
+	position: relative;
+	left: 25%;
+	top: 5px;
+}
+
+.logoGrande {
+	width: 80%;
+	height: 50%;
+	top: 5px;
+	transition: all 0.9s ease;
+}
+
+@media screen and (max-width: 768px) {
+	#menu {
+		visibility: hidden;
+	}
+
+	.logo {
+		width: 300%;
+		height: 60%;
+	}
+}
