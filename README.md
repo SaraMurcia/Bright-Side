@@ -1,6 +1,6 @@
 <a href="http://brightside.rf.gd/aplicacion/brightside/index.php" target="_blank"><img src="presentacion/logo.png"></a>
 
-Bright Side es una página donde se pueden leer noticias y buscar productos de maquillaje.
+Bright Side es una página web donde se pueden leer noticias y buscar productos de maquillaje.
 
 ## Programas utilizados
 * Visual Studio Code
