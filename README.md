@@ -2,7 +2,7 @@
 
 Bright Side es una página donde se pueden leer noticias y buscar productos de maquillaje.
 
-## Programas utilizadas
+## Programas utilizados
 ### Visual Studio Code
 ### Sublime Text 3
 ### Photoshop CC 2019
