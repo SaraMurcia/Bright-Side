@@ -3,16 +3,16 @@
 Bright Side es una página donde se pueden leer noticias y buscar productos de maquillaje.
 
 ## Programas utilizados
-### Visual Studio Code
-### Sublime Text 3
-### Photoshop CC 2019
-### Inkscape
-### Xampp
+* Visual Studio Code
+* Sublime Text 3
+* Photoshop CC 2019
+* Inkscape
+* Xampp
 
 ## Tecnologías utilizadas
-### Php (MVC, PDO)
-### JavaScript
-### jQuery
-### AJAX
-### HTML5
-### CSS3 (SASS)
+* Php (MVC, PDO)
+* JavaScript
+* jQuery
+* AJAX
+* HTML5
+* CSS3 (SASS)
