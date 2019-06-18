@@ -1,2 +1,1 @@
-# Bright Side
-Proyecto final
+<img src="presentacion/logo.png">
