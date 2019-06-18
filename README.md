@@ -9,7 +9,7 @@ Bright Side es una página donde se pueden leer noticias y buscar productos de m
 * Inkscape
 * Xampp
 
-## Tecnologías utilizadas
+## Lenguajes/tecnologías utilizados
 * Php (MVC, PDO)
 * JavaScript
 * jQuery
