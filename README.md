@@ -1,4 +1,4 @@
-<a href="http://brightside.rf.gd/aplicacion/brightside/index.php" target="_blank"><img src="presentacion/logo.png"></a>
+<a href="http://abrightside.rf.gd" target="_blank"><img src="presentacion/logo.png"></a>
 
 Bright Side es una página web donde se pueden leer noticias y buscar productos de maquillaje.
 
